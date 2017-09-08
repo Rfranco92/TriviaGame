@@ -2,8 +2,128 @@
 <html>
 <head>
 	<title>Trivia Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 <body>
+	<div id="container">
+		<h1>TRIVIA AROUND THE WORLD!</h1>
 
+		<h2>Answer Each Question and Submit at the Bottom!</h2>
+
+		<div id="timegame"></div>
+
+		<img id="eiffeltower" src="assets/images/eiffeltower.jpeg" alt="eiffeltower"></img>
+		<img id="greatwall" src="assets/images/GreatWall.jpg" alt="greatwall"></img>
+		<img id="stonehenge" src="assets/images/stonehenge.jpg" alt="stonehenge"></img>
+		<img id="statueofliberty" src="assets/images/statueofliberty.jpg" alt="statueofliberty"></img>
+	
+		<div class="question">On What Day is Cinco De Mayo Celebrated?
+		<form class="questionlist">
+		<input type="radio" name="question1" value=correct>May 5th
+		<input type="radio" name="question1">March 5th
+		<input type="radio" name="question1">May 7th
+		<input type="radio" name="question1">March 7th
+		</form>
+		</div>
+
+		<div class="question">The Capital of Norway is
+		<form class="questionlist">
+		<input type="radio" name="question2">Stockholm
+		<input type="radio" name="question2">Bergen
+		<input type="radio" name="question2" value=correct>Oslo
+		<input type="radio" name="question2">Stavanger
+		</form>
+		</div>
+
+		<div class="question">The most common Chinese Dialect is 
+		<form class="questionlist">
+		<input type="radio" name="question3">Cantonese
+		<input type="radio" name="question3">Wu
+		<input type="radio" name="question3">Gan
+		<input type="radio" name="question3" value=correct>Mandarin
+		</form>
+		</div>
+
+		<div class="question">A Commonly Celebrated Event in Munich is
+		<form class="questionlist">
+		<input type="radio" name="question4" value=correct>Oktoberfest
+		<input type="radio" name="question4">Bergkirchweih
+		<input type="radio" name="question4">Schutzenfest
+		<input type="radio" name="question4">Hamburger Dom
+		</form>
+		</div>
+
+		<div class="question">The First Roman Emperor is
+		<form class="questionlist">
+		<input type="radio" name="question5">Marcus Aurelius
+		<input type="radio" name="question5" value=correct>Augustus
+		<input type="radio" name="question5">Claudius
+		<input type="radio" name="question5">Tiberius
+		</form>
+		</div>
+
+		<div class="question">The 11th US President was 
+		<form class="questionlist">
+		<input type="radio" name="question6">Abraham Lincoln
+		<input type="radio" name="question6">Millard Fillmore
+		<input type="radio" name="question6" value=correct>James Polk
+		<input type="radio" name="question6">John Tyler
+		</form>
+		</div>
+
+		<div class="question">The nobility in feudal Japan were the
+		<form class="questionlist">
+		<input type="radio" name="question7">Ronin
+		<input type="radio" name="question7">Shoguns
+		<input type="radio" name="question7">Ninja
+		<input type="radio" name="question7" value=correct>Samurai
+		</form>
+		</div>
+
+		<div class="question">Morocco is located in what part of Africa?
+		<form class="questionlist">
+		<input type="radio" name="question8" value=correct>Northern
+		<input type="radio" name="question8">Southern
+		<input type="radio" name="question8">Eastern
+		<input type="radio" name="question8">Central
+		</form>
+		</div>
+
+		<div class="question">Which of these is NOT a French Town?
+		<form class="questionlist">
+		<input type="radio" name="question9">Versailles
+		<input type="radio" name="question9" value=correct>Bruges
+		<input type="radio" name="question9">Paris
+		<input type="radio" name="question9">Nice
+		</form>
+		</div>
+
+		<div class="question">Which Country in the United Kingdom recently voted on their independence?
+		<form class="questionlist">
+		<input type="radio" name="question10" value=correct>Scotland
+		<input type="radio" name="question10">Northern Ireland
+		<input type="radio" name="question10">England
+		<input type="radio" name="question10">Wales
+		</form>
+		</div>
+
+		<div class="question">Which of these is NOT a Canadian Province?
+		<form class="questionlist">
+		<input type="radio" name="question11">Prince Edward Ireland
+		<input type="radio" name="question11">Nova Scotia
+		<input type="radio" name="question11" value=correct>Winnipeg
+		<input type="radio" name="question11">New Brunswick
+		</form>
+		</div>
+
+		<button type="button">Submit Answers</button>
+
+		<div id="correct"></div>
+		<div id="incorrect"></div>
+		<div id="timeleft"></div>
+</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
 </body>
 </html>
